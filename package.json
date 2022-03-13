@@ -1,0 +1,32 @@
+{
+  "name": "vrchat-osc",
+  "version": "0.0.0",
+  "description": "sex",
+  "keywords": [
+    "vrchat",
+    "osc"
+  ],
+  "homepage": "https://github.com/pypy-vrc/vrchat-osc#readme",
+  "bugs": {
+    "url": "https://github.com/pypy-vrc/vrchat-osc/issues"
+  },
+  "license": "MIT",
+  "author": "pypy <git@pypy.moe>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pypy-vrc/vrchat-osc.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "prettier --check src/"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.6",
+    "utf-8-validate": "^5.0.9",
+    "ws": "^8.5.0"
+  }
+}
